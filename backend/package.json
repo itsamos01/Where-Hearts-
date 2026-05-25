@@ -1,4 +1,4 @@
-echo '{
+{
   "name": "whereheartsmeet-backend",
   "version": "1.0.0",
   "description": "Backend for Where Hearts Meet Agency",
@@ -9,4 +9,4 @@ echo '{
   "dependencies": {
     "express": "^4.18.2"
   }
-}' > package.json
+}
